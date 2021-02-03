@@ -1,0 +1,38 @@
+#logo{
+	height:30%;
+}
+
+#myproduct{
+	margin-left:15px;
+	margin-bottom:1px;
+	margin-top:15px;
+	font-size:25px;
+	font-family:Helvetica Nue;
+	font-weight:500;
+
+}
+
+.border{
+
+	border:7px solid #708090;
+	background-color: #708090;
+	margin-left:50px;
+	margin/right:70px;
+	margin-bottom:15px;
+	margin-top:1px;
+	padding-bottom:10px;
+	padding-top:20px;
+	padding-left:10px;
+	padding-right:30px;
+	width:50%;
+}
+
+b{
+	font-size:25px;
+	line-height:5%;
+}
+
+input{
+	font-weight:600;
+}
+
