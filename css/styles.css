@@ -65,7 +65,8 @@ width: 816px;
 height: 510px;
 margin-top:20px;
 display:flex;
-margin-left:40px;
+margin-left:32px;
+margin-top:32px;
 }
 
 .top_products{
@@ -76,7 +77,7 @@ text-align: center;
 color: #000000;
 }
 
-.product{
+.card{
 width: 251px;
 height: 449px;
 background: #FFFFFF;
@@ -85,10 +86,9 @@ line-height: 16px;
 align-items: center;
 color: #000000;
 margin-left:20px;
-margin-top:40px;
 }
 
-.product:hover{
+.card:hover{
 border: 1px solid #C0C0C0;
 }
 
@@ -155,14 +155,6 @@ border-radius: 15px;
 margin-left:15px;
 }
 
-
-.container_2{
-width: 816px;
-height: 510px;
-margin-top:20px;
-display:flex;
-margin-left:40px;
-}
 
 .blog_main{
 height: 55px;
