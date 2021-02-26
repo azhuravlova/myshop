@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-	<html>
-	<head>
-		<meta charset="UTF-8"/>
-		<title>myshop</title>
-		<!--Подключение шрифтов-->
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-		<link href="css/styles.css" rel="stylesheet" type="text/css"/>
-		
-	</head>
-	<body>
+			<?php
+   				include 'component/header.php';
+   			?>
 
 			<!--BUNNER-->
 			<div class="rectangle_1">
@@ -23,7 +14,7 @@
 
 			<!--WHY US-->
 			<div class="why_us">
-				<p><h2>Why us?</h2></p>
+				<p><h3>Why us?</h3></p>
 			</div>
 
 
@@ -160,7 +151,7 @@
 
 			<!--BLOG-->
 			<div class="blog_main">
-				<p><h2>Our blog stories</h2></p>
+				<p><h3>Our blog stories</h3></p>
 			</div>
 
 			<div class="container">
@@ -231,7 +222,10 @@
 				</div>
 
    			</div>
-			
-		                 
- 	</body>
-	</html>
+
+   			<footer>
+   				<div class="footerhome">
+
+   			<?php
+   				include 'component/footer.php';
+   			?>
